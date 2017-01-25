@@ -1,11 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Гостищева Виолетта">
+    <title>Widget</title>
+    <link href="style.css" rel="stylesheet">
 </head>
+
 <body>
 
+    <div class="widget">
+        <img src="Matilda.png">
+        <section class="widget_info">
+            <h2>Matilda</h2>
+            <div>
+                <ul class="widget_icon">
+                    <li>
+                        <span class="widget_icon_repost"></span>
+                        <span>26</span>
+                    </li>
+                    <li>
+                        <span class="widget_icon_like"></span>
+                        <span>10</span>
+                    </li>
+                    <li>
+                        <span class="widget_icon_comment"></span>
+                        <span>1</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="widget_link">
+            <p>Pinned from <a href="http://uncovet.com">uncovet.com</a></p>
+        </section>
+        <section class="widget_comments">
+            <div class="widget_comments_last">
+                <div class="widget_comments_last_item">
+                    <p>Hannah Kern</p>
+                    <p>Thats SWEEEEEEET!</p>
+                </div>
+            </div>
+            <form class="widget_comment_new" action="">
+                <textarea name="widget_comment_new" maxlength="500">Eyes looks</textarea>
+            </form>
+            <div class="widget_buttons">
+                <button id="widget_button">Add</button>
+            </div>
+        </section>
+    </div>
 </body>
+
 </html>
