@@ -1,0 +1,138 @@
+.widget {
+    max-width: 240px;
+    font-family: calibri;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #f5f6f7;
+    color: black;
+}
+
+.widget img {
+    width: 100%;
+}
+
+.widget_info {
+    padding: 8px;
+}
+
+.widget_info h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.widget_icon {
+    font-size: 15px;
+    color: #848687;
+    margin: 2px;
+    padding-left: 3px;
+}
+
+.widget_icon li {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.widget_icon span {
+    height: 18px;
+    width: 18px;
+    float: left;
+    background-size: cover;
+}
+
+.widget_icon_repost {
+    background-image: url(./icon_repost.png);
+}
+
+.widget_icon_like {
+    background-image: url(./icon_like.png);
+}
+
+.widget_icon_comment {
+    background-image: url(./icon_comment.png);
+}
+
+.widget_link {
+    border-top: solid 1px #ecedee;
+    padding: 0 10px;
+    font-size: 14px;
+    margin: 0;
+    color: #848687;
+}
+
+.widget_link a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.widget_comments {
+    background-color: #eff0f1;
+    border-top: solid 1px #ecedee;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.widget_comments_last {
+    max-height: 300px;
+    overflow: auto;
+}
+
+.widget_comments_last_item:before, .widget_comment_new:before {
+    content: '';
+    height: 30px;
+    width: 30px;
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 3px;
+    border-radius: 5px;
+}
+
+.widget_comments_last_item:before {
+    background-image: url(./photo_last_user.png);
+}
+
+.widget_comment_new:before {
+    background-image: url(./photo_new_user.png);
+}
+
+.widget_comments_last_item {
+    margin-top: 5px;
+}
+
+.widget_comments_last_item p:first-child {
+    font-weight: bold;
+}
+
+.widget_comments_last_item p {
+    padding-left: 50px;
+    margin: 0;
+    font-size: 14px;
+}
+
+.widget_comment_new {
+    padding-top: 5px;
+}
+
+.widget_comment_new textarea {
+    margin-left: 10px;
+    width: 70%;
+    height: 60px;
+    background-color: #f5f6f7;
+}
+
+.widget_buttons {
+    position: relative;
+}
+
+#widget_button {
+    background: #cf1c24;
+    color: white;
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    border-color: #cf1c24;
+    position: absolute;
+    right: 15px;
+    margin-top: 5px;
+}
